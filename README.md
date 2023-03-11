@@ -18,6 +18,10 @@ In this study, the Folds dataset was created by two techniques first, gathering 
 The image datasets used here consist of outcrop data collected from online open-source image libraries (25%) and modelled image data (75%). The outcrop images are 1366, and the synthetic images are 2915 (Table 1). The total number of images used in this study is 4281, divided across three-fold classes (Box, Rounded and Chevron). Box folds are 1346, Chevron folds are 1439, and Rounded folds are 1496 images where all three classes are balanced throughout the dataset. Since the mathematical models cannot infer textual labels, they are encoded into numerical values. The order of labels is not mandatory, as the label is a dependent variable. The details of the datasets are summarised in the following table.
 
 # Results
+## Deep Learning Results
+
+In this study, 4281 Fold-dataset images were modelled with five deep-learning models where the ResNet-50 recorded the highest accuracy. We used the Adam optimiser, which uses momentum and adaptive learning rates for faster training. Instead of a fixed learning rate, we used a one-cycle scheduled learning rate (Smith and Topin 2018), which changed the learning rate after every training batch. Figure 11 shows the learning rate graph of the Resnet-50 model is given. When the graphic was analysed, the learning rate for the Resnet-50 model was taken as 0.0007, and the training process was carried out. Choose an appropriate batch size (400), epochs (80) and learning rates to avoid overfitting during the training phase. In order to check that there is no overfitting in the trained model, it was verified with the validation dataset during the training phase and tested using different data at the end of the training.
+
 
 
 
