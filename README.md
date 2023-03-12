@@ -41,6 +41,11 @@ Transfer learning is a common technique in computer vision because it allows sci
 
 In this study, 4281 Fold-dataset images were modelled with five deep-learning models where the ResNet-50 recorded the highest accuracy. We used the Adam optimiser, which uses momentum and adaptive learning rates for faster training. Instead of a fixed learning rate, we used a one-cycle scheduled learning rate (Smith and Topin 2018), which changed the learning rate after every training batch. Figure 11 shows the learning rate graph of the Resnet-50 model is given. When the graphic was analysed, the learning rate for the Resnet-50 model was taken as 0.0007, and the training process was carried out. Choose an appropriate batch size (400), epochs (80) and learning rates to avoid overfitting during the training phase. In order to check that there is no overfitting in the trained model, it was verified with the validation dataset during the training phase and tested using different data at the end of the training.
 
+![](https://i.imgur.com/4jYcktj.png)]
+Fold dataset distribution used in this study after labelling (Box, Chevron and Rounded) and splitting into training, validation and testing sets.
+
+![](https://i.imgur.com/zxOEW7r.png)
+Examples of the classification performed by the pre-trained ResNet-50 model. The model confidently assigned the image to the correct class. The red box shows an example of the model failing to assign the class correctly.
 
 
 
