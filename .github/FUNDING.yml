@@ -1,6 +1,7 @@
 # These are supported funding model platforms
 
 github: https://github.com/ClareBond
+github: https://github.com/pytorch/pytorch
 liberapay: https://github.com/pytorch/pytorch
 custom: https://www.abdn.ac.uk/
 custom: https://www.ukri.org/councils/nerc/
