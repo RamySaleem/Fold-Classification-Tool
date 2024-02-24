@@ -47,7 +47,8 @@ Fold dataset distribution used in this study after labelling (Box, Chevron and R
 ![](https://i.imgur.com/zxOEW7r.png)
 Examples of the classification performed by the pre-trained ResNet-50 model. The model confidently assigned the image to the correct class. The red box shows an example of the model failing to assign the class correctly.
 
-
+Notebook link:
+https://jovian.com/ramysaleem/deep-learning-resnet50-fold-tool-2-acctest80-pretrained-final-d67c7
 
 # Discussion
 ## Using the Fold Classification Modle
